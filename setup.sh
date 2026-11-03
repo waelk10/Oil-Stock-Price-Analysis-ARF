@@ -9,3 +9,6 @@ FIREFOX=$(which iceweasel)
 
 # Create an FF profile
 $FIREFOX -CreateProfile $PROFILE_NAME
+
+# Analysis output
+mkdir -p ./data_points/oil-arf
