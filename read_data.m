@@ -10,7 +10,7 @@ fclose(OILfile);
 % Map the keys and values.
 arfkeys = arfcol{1};
 arfvalues = arfcol{2};
-arfmap = containers.Map(arfkeys, num2cell(arfvalues));
+ARFmap = containers.Map(arfkeys, num2cell(arfvalues));
 OILkeys = OILcol{1};
 OILvalues = OILcol{2};
 OILmap = containers.Map(OILkeys, num2cell(OILvalues));

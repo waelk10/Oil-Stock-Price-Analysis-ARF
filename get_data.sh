@@ -17,5 +17,5 @@ FIREFOX=$(which iceweasel)
 
 $FIREFOX -P $PROFILE_NAME -url $(echo $MARKETWATCH_URL_WTI | sed "s|INSERT_END|$(date +%m/%d/%Y)|")
 mv ~/Downloads/downloaddatapartial.csv ./oil_price.csv
-$FIREFOX -P $PROFILE_NAME -url $(echo $MARKETWATCH_URL_ORL | sed "s|INSERT_END|$(date +%m/%d/%Y)|")
+$FIREFOX -P $PROFILE_NAME -url $(echo $MARKETWATCH_URL_ARF | sed "s|INSERT_END|$(date +%m/%d/%Y)|")
 mv ~/Downloads/downloaddatapartial.csv ./arf_price.csv
